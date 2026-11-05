@@ -1,61 +1,59 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
+
+
+
 <html xml:lang="sv" xmlns="http://www.w3.org/1999/xhtml" lang="sv" dir="ltr">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
     <title>Inera Patient - Inera FHIR Implementation Guide Template v2.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
-    <link rel="stylesheet" href="assets/css/liquid.css"/>
-    <link rel="stylesheet" href="assets/css/project.css"/>
-  	<link rel="stylesheet" href="inera.css"/>
-<link rel="icon" href="inera-thumbnail.png" type="image/png"/>
-<link rel="shortcut icon" href="inera-thumbnail.png"/>
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/liquid.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<!-- Placeholder for child template CSS declarations -->
 
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
-    <script src="assets/js/direction-management.js" type="text/javascript"> </script>
-
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
-    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
-    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
-	  <script src="assets/js/prism.js" type="text/javascript"></script>
-	  <script src="assets/js/prism-fhirpath.js" type="text/javascript"></script>
-	  <script src="assets/js/prism-cql.js" type="text/javascript"></script>
-    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
+	  <script type="text/javascript" src="assets/js/prism.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"16.1"}
     h3,h4,h5,h6{--heading-prefix:"16.1"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
 
-        <div id="inera-nav">
-  <a id="inera-logo" href="https://www.inera.se" data-no-external="true"><a name="l87">​</a>
-    <img src="inera-logo-header.svg" alt="Inera" height="50"/>
-  </a>
-</div>
+        <!-- Placeholder for child template header declarations -->
 
 
         <div id="ig-status" data-fhir="generated">
@@ -65,30 +63,30 @@
 
 
 
-  <img src="../assets/images/swe.svg" alt="Sweden flagga" title="Sweden" height="16"/>
+  <img alt="Sweden flagga" src="../assets/images/swe.svg" height="16" title="Sweden"/>
 
 
             </span>
           </p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment" data-fhir="generated">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
 
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul class="nav navbar-nav">
   <li><a href="index.html">Hem</a></li>
@@ -122,38 +120,38 @@
     </ul>
   </li>
   <li><a href="artifacts.html">Artefakter</a></li>
-  <li><a rel="noopener" href="https://fhir.inera.se/" target="_blank">FHIR på Inera <span aria-hidden="true">↗</span></a></li>
+  <li><a href="https://fhir.inera.se/" target="_blank" rel="noopener">FHIR på Inera <span aria-hidden="true">&#8599;</span></a></li>
 </ul>
 
-            </div>    <!-- /.nav-collapse -->
+            </div>  <!-- /.nav-collapse -->
 
               
 
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
 
-    <div id="segment-breadcrumb" class="segment" data-fhir="generated">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Sammanfattning av artefakter</b></a></li><li><b>Inera Patient</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Sammanfattning av artefakter</b></a></li><li><b>Inera Patient</b></li>
 
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
-  <!-- layouts\layout-profile -->
+<!-- layouts\layout-profile -->
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Inera FHIR Implementation Guide Template - Lokal utvecklingsbygge (v2.3.0) byggt av FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. Se <a href="https://fhir.inera.se/ig/template/history.html">katalogen över publicerade versioner</a></p>  <!-- EndReleaseHeader -->
+  <!--ReleaseHeader--><p id="publish-box">Inera FHIR Implementation Guide Template - Lokal utvecklingsbygge (v2.3.0) byggt av FHIR (HL7® FHIR® Standard) Build Tools. Se <a href='https://fhir.inera.se/ig/template/history.html'>katalogen över publicerade versioner</a></p><!--EndReleaseHeader-->
   
 
 
@@ -242,15 +240,15 @@ Inera Patient
   <table class="colsd" data-fhir="generated">
 
     <tr>
-      <td colspan="4"><i>Officiell URL</i>: <span class="copy-text">https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient<button data-clipboard-text="https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient" title="Klicka för att kopiera URL" class="btn-copy"></button></span>
+      <td colspan="4"><i>Officiell URL</i>: <span class="copy-text">https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient<button title="Klicka för att kopiera URL" class="btn-copy" data-clipboard-text="https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">2.3.0<button data-clipboard-text="https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient|2.3.0" title="Klicka för att kopiera versionsspecificerad URL" class="btn-copy"></button></span>
+      <span class="copy-text">2.3.0<button title="Klicka för att kopiera versionsspecificerad URL" class="btn-copy" data-clipboard-text="https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient|2.3.0"/></span>
       </td>
       <td style="text-align: right;border-left-style: hidden" title="Aktivera detta för att se ändringar sedan den senaste officiella versionen">
-        <span id="toggle-change-display"><label for="showChanges" style="margin:0;font-weight:normal">Markera textändringar?</label>
+        <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Markera textändringar?</label>
   
-        <input onchange="toggleChanges()" style="margin:0" id="showChanges" type="checkbox"/>
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
   
       </span>
       </td>
@@ -299,7 +297,7 @@ Authors should replace this description with the clinical purpose and scope of t
 </div>
 
 
-  <!-- insert intro if present -->
+<!-- insert intro if present -->
 
 
 
@@ -311,7 +309,7 @@ Authors should replace this description with the clinical purpose and scope of t
 <p>Du kan också kontrollera <a href="https://packages2.fhir.org/xig/inera.core.template|current/StructureDefinition/IneraPatient">användningar i FHIR IG-statistiken</a></p>
 
 
-    <!-- no uri -->
+  <!-- no uri -->
   <a name="profile"> </a>
   <h3 id="profile">Formella vyer av profilinnehåll</h3>
   <p>
@@ -334,19 +332,19 @@ Authors should replace this description with the clinical purpose and scope of t
 
 
 
-  <!-- <li>
+<!--      <li>
         <a href="#tabs-xml">Pseudo-XML</a>
-      </li> -->
+      </li>-->
 
 
-  <!-- <li>
+<!--      <li>
         <a href="#tabs-json">Pseudo-JSON</a>
-      </li> -->
+      </li>-->
 
 
-        <!-- <li>
+      <!--<li>
         <a href="#tabs-ttl">Pseudo-TTL</a>
-      </li> -->
+      </li>-->
 
       <li>
         <a href="#tabs-summ">Statistik/referenser</a>
@@ -505,7 +503,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="" class="hierarchy xhtCellBorder0">1..1</td>
 <td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td>
 <td style="" class="hierarchy xhtCellBorder0">replaced-by | replaces | refer | seealso<br class="binding"/><span class="xhtPieceBold binding">Bindning: </span><a href="http://hl7.org/fhir/R4/valueset-link-type.html" title="http://hl7.org/fhir/ValueSet/link-type" class="binding">LinkType</a><span class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span class="binding">)</span><span class="binding">: </span><span class="binding">The type of link between this patient resource and another patient resource.</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Förklaring för detta format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Dokumentation för detta format</a></td></tr><script type="text/javascript">  // cd0db86d-9f0d-4948-8399-f6a2ab8101e2
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Förklaring för detta format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Dokumentation för detta format</a></td></tr><script type="text/javascript">  // 0c6ef6b4-ffb1-4575-8054-8247fd724782
 document.getElementById('cbIneraPatientK-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
 filterDesc(document.getElementById('IneraPatientK'), 'constraint', document.getElementById('cbIneraPatientK-constraint').checked, document.getElementById('ppIneraPatientK'));
 document.getElementById('cbIneraPatientK-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
@@ -515,7 +513,7 @@ filterDesc(document.getElementById('IneraPatientK'), 'obligation', document.getE
 </script></table>
 
         
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminologibindningar</h4>
 <table class="list" data-fhir="generated-heirarchy">
   <tr>
@@ -617,10 +615,10 @@ filterDesc(document.getElementById('IneraPatientK'), 'obligation', document.getE
 
 
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-key"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Begränsningar</h4>
 <table class="list presentation" data-fhir="generated-heirarchy">
   <tr>
@@ -725,7 +723,7 @@ filterDesc(document.getElementById('IneraPatientK'), 'obligation', document.getE
 <td style="" class="hierarchy xhtCellBorder0"><span class="xhtPieceDeEmphasized">0</span><span class="xhtPieceDeEmphasized">..</span><span class="xhtPieceDeEmphasized">1</span></td>
 <td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#string" class="xhtPieceDeEmphasized">string</a></td>
 <td style="" class="hierarchy xhtCellBorder0"><span class="xhtPieceDeEmphasized">Country (e.g. can be ISO 3166 2 or 3 letter code)</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Förklaring för detta format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Dokumentation för detta format</a></td></tr><script type="text/javascript">  // cd0db86d-9f0d-4948-8399-f6a2ab8101e2
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Förklaring för detta format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Dokumentation för detta format</a></td></tr><script type="text/javascript">  // 0c6ef6b4-ffb1-4575-8054-8247fd724782
 document.getElementById('cbIneraPatientD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
 filterDesc(document.getElementById('IneraPatientD'), 'constraint', document.getElementById('cbIneraPatientD-constraint').checked, document.getElementById('ppIneraPatientD'));
 document.getElementById('cbIneraPatientD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
@@ -737,11 +735,11 @@ filterDesc(document.getElementById('IneraPatientD'), 'obligation', document.getE
 
         
           <a name="tx"> </a>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
         </div>
       </div>
@@ -1165,7 +1163,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="" class="hierarchy xhtCellBorder0">1..1</td>
 <td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td>
 <td style="" class="hierarchy xhtCellBorder0">replaced-by | replaces | refer | seealso<br class="binding"/><span class="xhtPieceBold binding">Bindning: </span><a href="http://hl7.org/fhir/R4/valueset-link-type.html" title="http://hl7.org/fhir/ValueSet/link-type" class="binding">LinkType</a><span class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span class="binding">)</span><span class="binding">: </span><span class="binding">The type of link between this patient resource and another patient resource.</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Förklaring för detta format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Dokumentation för detta format</a></td></tr><script type="text/javascript">  // cd0db86d-9f0d-4948-8399-f6a2ab8101e2
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Förklaring för detta format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Dokumentation för detta format</a></td></tr><script type="text/javascript">  // 0c6ef6b4-ffb1-4575-8054-8247fd724782
 document.getElementById('cbIneraPatientS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
 filterDesc(document.getElementById('IneraPatientS'), 'constraint', document.getElementById('cbIneraPatientS-constraint').checked, document.getElementById('ppIneraPatientS'));
 document.getElementById('cbIneraPatientS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
@@ -1176,7 +1174,7 @@ filterDesc(document.getElementById('IneraPatientS'), 'obligation', document.getE
 
 
         
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminologibindningar</h4>
 <table class="list" data-fhir="generated-heirarchy">
   <tr>
@@ -1383,10 +1381,10 @@ filterDesc(document.getElementById('IneraPatientS'), 'obligation', document.getE
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-snap"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Begränsningar</h4>
 <table class="list presentation" data-fhir="generated-heirarchy">
   <tr>
@@ -1416,7 +1414,7 @@ filterDesc(document.getElementById('IneraPatientS'), 'obligation', document.getE
 
 
 
-  <!-- <a name="tabs-xml"> </a>
+<!--    <a name="tabs-xml"> </a>
     <div id="tabs-xml">
       <div id="xml">
         <div id="xml-inner">
@@ -1424,10 +1422,10 @@ filterDesc(document.getElementById('IneraPatientS'), 'obligation', document.getE
 
         </div>
       </div>
-    </div> -->
+    </div>-->
 
 
-  <!-- <a name="tabs-json"> </a>
+<!--    <a name="tabs-json"> </a>
     <div id="tabs-json">
       <div id="json">
         <div id="json-inner">
@@ -1525,10 +1523,10 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
 
         </div>
       </div>
-    </div> -->
+    </div>-->
 
 
-      <!-- <a name="tabs-ttl"> </a>
+    <!--<a name="tabs-ttl"> </a>
     <div id="tabs-ttl">
       <div id="ttl">
         <div id="ttl-inner">
@@ -1536,7 +1534,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
 
         </div>
       </div>
-    </div> -->
+    </div>-->
 
     <a name="tabs-summ"> </a>
     <div id="tabs-summ">
@@ -1714,7 +1712,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="" class="hierarchy xhtCellBorder0">1..1</td>
 <td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td>
 <td style="" class="hierarchy xhtCellBorder0">replaced-by | replaces | refer | seealso<br class="binding"/><span class="xhtPieceBold binding">Bindning: </span><a href="http://hl7.org/fhir/R4/valueset-link-type.html" title="http://hl7.org/fhir/ValueSet/link-type" class="binding">LinkType</a><span class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span class="binding">)</span><span class="binding">: </span><span class="binding">The type of link between this patient resource and another patient resource.</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Förklaring för detta format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Dokumentation för detta format</a></td></tr><script type="text/javascript">  // cd0db86d-9f0d-4948-8399-f6a2ab8101e2
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Förklaring för detta format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Dokumentation för detta format</a></td></tr><script type="text/javascript">  // 0c6ef6b4-ffb1-4575-8054-8247fd724782
 document.getElementById('cbIneraPatientKA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
 filterDesc(document.getElementById('IneraPatientKA'), 'constraint', document.getElementById('cbIneraPatientKA-constraint').checked, document.getElementById('ppIneraPatientKA'));
 document.getElementById('cbIneraPatientKA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
@@ -1723,7 +1721,7 @@ document.getElementById('cbIneraPatientKA-obligation').checked = 'false' != loca
 filterDesc(document.getElementById('IneraPatientKA'), 'obligation', document.getElementById('cbIneraPatientKA-obligation').checked, document.getElementById('ppIneraPatientKA'));
 </script></table>
 
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminologibindningar</h4>
 <table class="list" data-fhir="generated-heirarchy">
   <tr>
@@ -1825,10 +1823,10 @@ filterDesc(document.getElementById('IneraPatientKA'), 'obligation', document.get
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-all-key"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Begränsningar</h4>
 <table class="list presentation" data-fhir="generated-heirarchy">
   <tr>
@@ -1933,7 +1931,7 @@ filterDesc(document.getElementById('IneraPatientKA'), 'obligation', document.get
 <td style="" class="hierarchy xhtCellBorder0"><span class="xhtPieceDeEmphasized">0</span><span class="xhtPieceDeEmphasized">..</span><span class="xhtPieceDeEmphasized">1</span></td>
 <td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#string" class="xhtPieceDeEmphasized">string</a></td>
 <td style="" class="hierarchy xhtCellBorder0"><span class="xhtPieceDeEmphasized">Country (e.g. can be ISO 3166 2 or 3 letter code)</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Förklaring för detta format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Dokumentation för detta format</a></td></tr><script type="text/javascript">  // cd0db86d-9f0d-4948-8399-f6a2ab8101e2
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Förklaring för detta format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Dokumentation för detta format</a></td></tr><script type="text/javascript">  // 0c6ef6b4-ffb1-4575-8054-8247fd724782
 document.getElementById('cbIneraPatientDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
 filterDesc(document.getElementById('IneraPatientDA'), 'constraint', document.getElementById('cbIneraPatientDA-constraint').checked, document.getElementById('ppIneraPatientDA'));
 document.getElementById('cbIneraPatientDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
@@ -1942,11 +1940,11 @@ document.getElementById('cbIneraPatientDA-obligation').checked = 'false' != loca
 filterDesc(document.getElementById('IneraPatientDA'), 'obligation', document.getElementById('cbIneraPatientDA-obligation').checked, document.getElementById('ppIneraPatientDA'));
 </script></table>
 
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
         </div>
       </div>
@@ -2370,7 +2368,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="" class="hierarchy xhtCellBorder0">1..1</td>
 <td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td>
 <td style="" class="hierarchy xhtCellBorder0">replaced-by | replaces | refer | seealso<br class="binding"/><span class="xhtPieceBold binding">Bindning: </span><a href="http://hl7.org/fhir/R4/valueset-link-type.html" title="http://hl7.org/fhir/ValueSet/link-type" class="binding">LinkType</a><span class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span class="binding">)</span><span class="binding">: </span><span class="binding">The type of link between this patient resource and another patient resource.</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Förklaring för detta format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Dokumentation för detta format</a></td></tr><script type="text/javascript">  // cd0db86d-9f0d-4948-8399-f6a2ab8101e2
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Förklaring för detta format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Dokumentation för detta format</a></td></tr><script type="text/javascript">  // 0c6ef6b4-ffb1-4575-8054-8247fd724782
 document.getElementById('cbIneraPatientSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
 filterDesc(document.getElementById('IneraPatientSA'), 'constraint', document.getElementById('cbIneraPatientSA-constraint').checked, document.getElementById('ppIneraPatientSA'));
 document.getElementById('cbIneraPatientSA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
@@ -2379,7 +2377,7 @@ document.getElementById('cbIneraPatientSA-obligation').checked = 'false' != loca
 filterDesc(document.getElementById('IneraPatientSA'), 'obligation', document.getElementById('cbIneraPatientSA-obligation').checked, document.getElementById('ppIneraPatientSA'));
 </script></table>
 
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminologibindningar</h4>
 <table class="list" data-fhir="generated-heirarchy">
   <tr>
@@ -2586,10 +2584,10 @@ filterDesc(document.getElementById('IneraPatientSA'), 'obligation', document.get
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-all-snap"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Begränsningar</h4>
 <table class="list presentation" data-fhir="generated-heirarchy">
   <tr>
@@ -2618,7 +2616,7 @@ filterDesc(document.getElementById('IneraPatientSA'), 'obligation', document.get
 
 
 
-        <!-- <div id="all-xml">
+      <!--<div id="all-xml">
         <p>
           <b>XML-mall</b>
         </p>
@@ -2626,10 +2624,10 @@ filterDesc(document.getElementById('IneraPatientSA'), 'obligation', document.get
           <p><span style="color: maroon; font-weight: bold">yet to be done: Xml template</span></p>
 
         </div>
-      </div> -->
+      </div>-->
 
 
-        <!-- <div id="all-json">
+      <!--<div id="all-json">
         <p>
           <b>JSON-mall</b>
         </p>
@@ -2727,10 +2725,10 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
   }
 
         </div>
-      </div> -->
+      </div>-->
 
 
-        <!-- <div id="all-ttl">
+      <!--<div id="all-ttl">
         <p>
           <b>TTL-mall</b>
         </p>
@@ -2738,7 +2736,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           <p><span style="color: maroon; font-weight: bold">yet to be done: Turtle template</span></p>
 
         </div>
-      </div> -->
+      </div>-->
 
       <div id="all-summ">
         <p>Denna struktur är härledd från 
@@ -2761,47 +2759,47 @@ Sammanfattning
       </div>
     </div>
   </div>
-  <p>&nbsp;</p>
+  <p>&#160;</p>
   <p>Andra representationer av profilen: <a href="../StructureDefinition-IneraPatient.csv">CSV</a>, <a href="../StructureDefinition-IneraPatient.xlsx">Excel</a>, <a href="../StructureDefinition-IneraPatient.sch">Schematron</a>
  
   </p>
 
   
 
-  <!-- insert notes if present -->
+<!-- insert notes if present -->
 
 
 
 
 </div>
 
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
-  <script src="assets/js/flags.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
 
-  <script src="assets/js/tabs.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/tabs.js"> </script>
 
-  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
-  <script src="assets/js/togglechanges.js" type="text/javascript"> </script>
-  <script src="assets/js/requirements-table.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script type="text/javascript" src="assets/js/togglechanges.js"> </script>
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container" data-fhir="generated">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
 
 
 
-          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.inera.se">Inera AB</a>.  
+          IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.inera.se">Inera AB</a>.  
           Paket inera.core.template#2.3.0 baserat på <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Genererad 
-  <span title="2026-11-05 11:01:00 +0000">
+  <span title="2026-11-05 11:09:00 +0000">
     2026-11-05
   </span>
 
@@ -2813,26 +2811,27 @@ Sammanfattning
                 
           </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
 
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
-    <!-- Analytics Below
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+
