@@ -1,19 +1,50 @@
 IneraCoreTemplate : Validation Results
 =========================================
 
-err = 0, warn = 1, info = 5, broken links = 3
+err = 0, warn = 1, info = 5, broken links = 34
 IG Publisher Version: 3.0.2
-Generated Thu Nov 05 10:59:02 UTC 2026. FHIR version 4.0.1 for inera.core.template#2.3.0 (canonical = https://fhir.inera.se/ig/template)
- Build Errors : 3 / 0 / 0
+Generated Thu Nov 05 11:02:34 UTC 2026. FHIR version 4.0.1 for inera.core.template#2.3.0 (canonical = https://fhir.inera.se/ig/template)
+ Build Errors : 34 / 0 / 0
  /home/runner/work/TestmallGDR/TestmallGDR/fsh-generated/resources/ImplementationGuide-inera.core.template : 0 / 0 / 3
  /home/runner/work/TestmallGDR/TestmallGDR/fsh-generated/resources/Patient-IneraPatientExample : 0 / 1 / 1
  /home/runner/work/TestmallGDR/TestmallGDR/fsh-generated/resources/StructureDefinition-IneraPatient : 0 / 0 / 4
 </table>
 
 == n/a ==
+ERROR: sv/Patient-IneraPatientExample.change.history.html#/html/body/div/div/div/a/img at Line 61, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/Patient-IneraPatientExample.html#/html/body/div/div/div/a/img at Line 60, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/Patient-IneraPatientExample.json.html#/html/body/div/div/div/a/img at Line 63, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/Patient-IneraPatientExample.ttl.html#/html/body/div/div/div/a/img at Line 63, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/Patient-IneraPatientExample.xml.html#/html/body/div/div/div/a/img at Line 63, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/StructureDefinition-IneraPatient-definitions.html#/html/body/div/div/div/a/img at Line 61, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/StructureDefinition-IneraPatient-examples.html#/html/body/div/div/div/a/img at Line 61, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/StructureDefinition-IneraPatient-mappings.html#/html/body/div/div/div/a/img at Line 61, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/StructureDefinition-IneraPatient-testing.html#/html/body/div/div/div/a/img at Line 61, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/StructureDefinition-IneraPatient.html#/html/body/div/div/div/a/img at Line 61, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/StructureDefinition-IneraPatient.profile.history.html#/html/body/div/div/div/a/img at Line 61, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/StructureDefinition-IneraPatient.profile.json.html#/html/body/div/div/div/a/img at Line 65, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/StructureDefinition-IneraPatient.profile.ttl.html#/html/body/div/div/div/a/img at Line 65, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/StructureDefinition-IneraPatient.profile.xml.html#/html/body/div/div/div/a/img at Line 65, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/about.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/artifacts.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/capabilitystatement.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/downloads.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/error-handling.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/expected-responses.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/index.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/information-basis.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
 ERROR: sv/information-basis.html#/html/body/div/div/div/div/div/table/tbody/tr/td/em/a at Line 199, column 16: The link '[länk till publicerat dokument]' for "Namn på informationsspecifikationen" cannot be resolved
+ERROR: sv/introduction.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/mappings.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
 ERROR: sv/mappings.html#/html/body/div/div/div/div/div/table/tbody/tr/td/em/a at Line 233, column 16: The link 'StructureDefinition-[Profil].html' for "Profil.element" cannot be resolved
 ERROR: sv/mappings.html#/html/body/div/div/div/div/div/table/tbody/tr/td/em/a at Line 239, column 16: The link 'StructureDefinition-[Profil].html' for "Profil.element" cannot be resolved
+ERROR: sv/rest-interactions.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/roles-and-responsibilities.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/security.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/testing.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/toc.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/use-cases.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
+ERROR: sv/version-history.html#/html/body/div/div/div/a/img at Line 59, column 6: The image source 'inera-logo-header.svg' cannot be resolved
 
 
 == fsh-generated/resources/ImplementationGuide-inera.core.template.json ==
