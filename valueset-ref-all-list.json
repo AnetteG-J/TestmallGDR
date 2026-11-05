@@ -39,7 +39,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1"],
     "uses" : {
     },
-    "StructureDefinition-IneraPatient.html" : "Inera Patient"
+    "StructureDefinition-IneraPatient.html" : "Inera Patient",
+    "StructureDefinition-stockholm-genomic-related-person.html" : "Stockholm Genomic Related Person"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -81,7 +82,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-IneraPatient.html" : "Inera Patient"
+    "StructureDefinition-IneraPatient.html" : "Inera Patient",
+    "StructureDefinition-stockholm-genomic-related-person.html" : "Stockholm Genomic Related Person"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -139,5 +141,20 @@
     "uses" : {
     },
     "StructureDefinition-IneraPatient.html" : "Inera Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "PatientRelationshipType",
+    "title" : "Patient relationship type",
+    "description" : "A set of codes that can be used to indicate the relationship between a Patient and a Related Person.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+    "http://terminology.hl7.org/CodeSystem/v2-0131"],
+    "oids" : ["2.16.840.1.113883.4.642.3.449"],
+    "sources" : ["2.16.840.1.113883.4.642.3.449"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-related-person.html" : "Stockholm Genomic Related Person"
   }]
 }

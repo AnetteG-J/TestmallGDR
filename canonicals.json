@@ -1,14 +1,21 @@
 [{
-  "id" : "inera.core.template",
+  "id" : "RegionStockholmGDR",
   "type" : "ImplementationGuide",
-  "url" : "https://fhir.inera.se/ig/template/ImplementationGuide/inera.core.template",
-  "version" : "2.3.0",
-  "name" : "IneraCoreTemplate"
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/ImplementationGuide/RegionStockholmGDR",
+  "version" : "0.1.0",
+  "name" : "RegionStockholmTestmallGDR"
 },
 {
   "id" : "IneraPatient",
   "type" : "StructureDefinition",
-  "url" : "https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient",
-  "version" : "2.3.0",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/IneraPatient",
+  "version" : "0.1.0",
   "name" : "IneraPatient"
+},
+{
+  "id" : "stockholm-genomic-related-person",
+  "type" : "StructureDefinition",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-related-person",
+  "version" : "0.1.0",
+  "name" : "StockholmGenomicRelatedPerson"
 }]

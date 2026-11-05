@@ -1,14 +1,20 @@
 {
-  "package": "inera.core.template",
-  "version": "2.3.0",
+  "package": "RegionStockholmGDR",
+  "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "SE",
   "extensions": [],
   "profiles": {
     "Patient": [
       {
-        "url": "https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient",
+        "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/IneraPatient",
         "title": "Inera Patient"
+      }
+    ],
+    "RelatedPerson": [
+      {
+        "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-related-person",
+        "title": "Stockholm Genomic Related Person"
       }
     ]
   },

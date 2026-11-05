@@ -1,4 +1,4 @@
-# inera.core.template#2.3.0: Inera FHIR Implementation Guide Template(sv)
+# RegionStockholmGDR#0.1.0: Region Stockholms testmall implementationsguide FHIR(sv)
 
 ## Pages
 
@@ -24,10 +24,11 @@
 ### Resource Profiles
 
 * [Inera Patient](sv/StructureDefinition-IneraPatient.md)
+* [Stockholm Genomic Related Person](sv/StructureDefinition-stockholm-genomic-related-person.md)
 
 ### ImplementationGuides
 
-* [Inera FHIR Implementation Guide Template](sv/ImplementationGuide-inera.core.template.md)
+* [Region Stockholms testmall implementationsguide FHIR](sv/ImplementationGuide-RegionStockholmGDR.md)
 
 ### Examples
 

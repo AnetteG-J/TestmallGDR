@@ -1,4 +1,4 @@
-# Inledning - Inera FHIR Implementation Guide Template v2.3.0
+# Inledning - Region Stockholms testmall implementationsguide FHIR v0.1.0
 
 ## Inledning
 

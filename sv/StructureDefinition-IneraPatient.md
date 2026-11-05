@@ -1,4 +1,4 @@
-# Inera Patient - Inera FHIR Implementation Guide Template v2.3.0
+# Inera Patient - Region Stockholms testmall implementationsguide FHIR v0.1.0
 
 ## Resursprofil: Inera Patient 
 
@@ -6,7 +6,7 @@
 
 * Exempel för denna Profil: [Patient/IneraPatientExample](Patient-IneraPatientExample.md)
 
-Du kan också kontrollera [användningar i FHIR IG-statistiken](https://packages2.fhir.org/xig/inera.core.template|current/StructureDefinition/IneraPatient)
+Du kan också kontrollera [användningar i FHIR IG-statistiken](https://packages2.fhir.org/xig/RegionStockholmGDR|current/StructureDefinition/IneraPatient)
 
 ### Formella vyer av profilinnehåll
 
@@ -60,21 +60,21 @@ Andra representationer av profilen: [CSV](../StructureDefinition-IneraPatient.cs
 {
   "resourceType" : "StructureDefinition",
   "id" : "IneraPatient",
-  "url" : "https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/IneraPatient",
   "identifier" : [{
     "value" : "IneraPatient"
   }],
-  "version" : "2.3.0",
+  "version" : "0.1.0",
   "name" : "IneraPatient",
   "title" : "Inera Patient",
   "status" : "draft",
   "date" : "2026-07-15",
-  "publisher" : "Inera AB",
+  "publisher" : "Region Stockholm",
   "contact" : [{
-    "name" : "Inera AB",
+    "name" : "Region Stockholm",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.inera.se"
+      "value" : "https://www.regionstockholm.se"
     }]
   }],
   "description" : "A template patient profile demonstrating Inera's FHIR profiling conventions.\nAuthors should replace this description with the clinical purpose and scope of the profile.",

@@ -1,145 +1,214 @@
 {
-  "date" : "Thu, 05 Nov, 2026 11:09:46 +0000",
+  "date" : "Thu, 05 Nov, 2026 11:42:01 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [{
-    "name" : "/fsh-generated/resources/ImplementationGuide-inera.core.template.json",
-    "size" : 4222,
+    "name" : "/fsh-generated/resources/ImplementationGuide-RegionStockholmGDR.json",
+    "size" : 4893,
     "processes" : [{
       "activity" : "load",
-      "start" : 19,
-      "length" : 11
+      "start" : 29,
+      "length" : 13
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 20,
-      "length" : 10
+      "start" : 29,
+      "length" : 17
     },
     {
       "activity" : "generateNarratives",
-      "start" : 20,
-      "length" : 170
+      "start" : 29,
+      "length" : 184
     },
     {
       "activity" : "validate",
-      "start" : 21,
-      "length" : 2858
+      "start" : 31,
+      "length" : 1528
     },
     {
       "activity" : "scanForUsageStats",
-      "start" : 24,
+      "start" : 33,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 26,
-      "length" : 248
+      "start" : 33,
+      "length" : 102
     },
     {
       "activity" : "generate2",
-      "start" : 30,
-      "length" : 63
+      "start" : 36,
+      "length" : 96
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 37,
-      "length" : 1
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 40,
-      "length" : 1
+      "start" : 45,
+      "length" : 2
     }]
   },
   {
     "name" : "fsh-generated/resources/Patient-IneraPatientExample.json",
-    "size" : 665,
+    "size" : 699,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 19,
+      "start" : 29,
       "length" : 3
     },
     {
       "activity" : "load-configure",
-      "start" : 20,
-      "length" : 2
+      "start" : 29,
+      "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 20,
-      "length" : 176
+      "start" : 30,
+      "length" : 382
     },
     {
       "activity" : "validate",
-      "start" : 24,
-      "length" : 10
+      "start" : 33,
+      "length" : 13
     },
     {
       "activity" : "generate1",
-      "start" : 26,
-      "length" : 97
+      "start" : 33,
+      "length" : 14
     },
     {
       "activity" : "generate2",
-      "start" : 30,
-      "length" : 17
+      "start" : 36,
+      "length" : 21
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-IneraPatient.json",
-    "size" : 3282,
+    "size" : 3316,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 19,
-      "length" : 3
+      "start" : 29,
+      "length" : 4
     },
     {
       "activity" : "load",
-      "start" : 19,
-      "length" : 8
+      "start" : 29,
+      "length" : 12
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 1
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 19,
-      "length" : 53
+      "start" : 29,
+      "length" : 70
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 29,
+      "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 20,
-      "length" : 627
+      "start" : 30,
+      "length" : 537
     },
     {
       "activity" : "validate",
-      "start" : 21,
-      "length" : 647
+      "start" : 31,
+      "length" : 756
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 33,
+      "length" : 1
     },
     {
       "activity" : "scanForUsageStats",
-      "start" : 24,
+      "start" : 33,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 338
+    },
+    {
+      "activity" : "generate2",
+      "start" : 36,
+      "length" : 1667
+    },
+    {
+      "activity" : "generate2",
+      "start" : 38,
+      "length" : 1471
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 45,
+      "length" : 13
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 48,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-stockholm-genomic-related-person.json",
+    "size" : 1878,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 23
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 25
+    },
+    {
+      "activity" : "validate",
+      "start" : 31,
+      "length" : 150
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 33,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 26,
-      "length" : 352
+      "start" : 34,
+      "length" : 118
     },
     {
       "activity" : "generate2",
-      "start" : 30,
-      "length" : 1314
+      "start" : 38,
+      "length" : 373
     },
     {
       "activity" : "generate2",
-      "start" : 32,
-      "length" : 1201
+      "start" : 39,
+      "length" : 180
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 37,
-      "length" : 10
+      "start" : 45,
+      "length" : 5
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 40,
+      "start" : 48,
       "length" : 1
     }]
   },
@@ -147,27 +216,22 @@
     "name" : "/input/includes/menu.xml",
     "size" : 1731,
     "processes" : [{
-      "activity" : "scan",
-      "start" : 20,
-      "length" : 1
-    },
-    {
       "activity" : "generate2",
-      "start" : 32,
+      "start" : 38,
       "length" : 1
     }]
   },
   {
     "name" : "/fsh-generated/includes/fsh-link-references.md",
-    "size" : 109
+    "size" : 200
   },
   {
     "name" : "/input/pagecontent/mappings.md",
     "size" : 2278,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 32,
-      "length" : 2
+      "start" : 38,
+      "length" : 3
     }]
   },
   {
@@ -175,21 +239,26 @@
     "size" : 1578,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 32,
+      "start" : 38,
       "length" : 1
     }]
   },
   {
     "name" : "/input/pagecontent/error-handling.md",
-    "size" : 168
+    "size" : 168,
+    "processes" : [{
+      "activity" : "scan",
+      "start" : 29,
+      "length" : 1
+    }]
   },
   {
     "name" : "/input/pagecontent/version-history.md",
     "size" : 5548,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 32,
-      "length" : 2
+      "start" : 38,
+      "length" : 4
     }]
   },
   {
@@ -198,16 +267,16 @@
   },
   {
     "name" : "/input/pagecontent/use-cases.md",
-    "size" : 551
+    "size" : 551,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 38,
+      "length" : 1
+    }]
   },
   {
     "name" : "/input/pagecontent/expected-responses.md",
-    "size" : 259,
-    "processes" : [{
-      "activity" : "generate2",
-      "start" : 32,
-      "length" : 1
-    }]
+    "size" : 259
   },
   {
     "name" : "/input/pagecontent/rest-interactions.md",
@@ -215,7 +284,12 @@
   },
   {
     "name" : "/input/pagecontent/capabilitystatement.md",
-    "size" : 476
+    "size" : 476,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 38,
+      "length" : 1
+    }]
   },
   {
     "name" : "/input/pagecontent/security.md",
@@ -226,35 +300,40 @@
     "size" : 720,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 32,
+      "start" : 38,
       "length" : 1
     }]
   },
   {
     "name" : "/input/pagecontent/information-basis.md",
-    "size" : 1191
+    "size" : 1191,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 38,
+      "length" : 1
+    }]
   },
   {
     "name" : "/input/pagecontent/index.md",
     "size" : 3082,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 32,
-      "length" : 1
+      "start" : 38,
+      "length" : 2
     }]
   },
   {
     "name" : "/input/pagecontent/downloads.md",
-    "size" : 613,
-    "processes" : [{
-      "activity" : "generate2",
-      "start" : 32,
-      "length" : 1
-    }]
+    "size" : 613
   },
   {
     "name" : "/input/pagecontent/introduction.md",
-    "size" : 1316
+    "size" : 1316,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 38,
+      "length" : 1
+    }]
   },
   {
     "name" : "/template/config",
@@ -266,15 +345,15 @@
   },
   {
     "name" : "/temp/pages/_includes/artifacts.xml",
-    "size" : 216
+    "size" : 216,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 38,
+      "length" : 1
+    }]
   },
   {
     "name" : "/temp/pages/_includes/fragment-artifacts-table.html",
-    "size" : 3960,
-    "processes" : [{
-      "activity" : "generate2",
-      "start" : 32,
-      "length" : 1
-    }]
+    "size" : 3960
   }]
 }
