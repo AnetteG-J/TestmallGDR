@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "StockholmGenomicRelatedPerson"] ;
   fhir:StructureDefinition.title [ fhir:value "Stockholm Genomic Related Person"] ;
   fhir:StructureDefinition.status [ fhir:value "draft"] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-11-05T11:42:01+00:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-11-05T11:46:45+00:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "Region Stockholm"] ;
   fhir:StructureDefinition.contact [
      fhir:index 0 ;
