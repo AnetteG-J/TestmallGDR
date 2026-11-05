@@ -14,7 +14,7 @@
   "name" : "RegionStockholmTestmallGDR",
   "title" : "Region Stockholms testmall implementationsguide FHIR",
   "status" : "draft",
-  "date" : "2026-11-05T11:46:45+00:00",
+  "date" : "2026-11-05T11:52:42+00:00",
   "publisher" : "Region Stockholm",
   "contact" : [{
     "name" : "Region Stockholm",
@@ -398,6 +398,22 @@
       "name" : "Inera Patient Example",
       "description" : "A minimal example of a patient conforming to the IneraPatient profile.",
       "exampleCanonical" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/IneraPatient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stockholm-genomic-patient.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/stockholm-genomic-patient"
+      },
+      "name" : "Stockholm Genomic Patient",
+      "description" : "Minimal Patient profile for genomic studies. Exposes only the key elements required: identifier, gender, birthDate and deceased.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{

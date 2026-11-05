@@ -13,6 +13,13 @@
   "name" : "IneraPatient"
 },
 {
+  "id" : "stockholm-genomic-patient",
+  "type" : "StructureDefinition",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-patient",
+  "version" : "0.1.0",
+  "name" : "StockholmGenomicPatient"
+},
+{
   "id" : "stockholm-genomic-related-person",
   "type" : "StructureDefinition",
   "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-related-person",

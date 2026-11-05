@@ -24,6 +24,7 @@
 ### Resource Profiles
 
 * [Inera Patient](StructureDefinition-IneraPatient.md)
+* [Stockholm Genomic Patient](StructureDefinition-stockholm-genomic-patient.md)
 * [Stockholm Genomic Related Person](StructureDefinition-stockholm-genomic-related-person.md)
 
 ### ImplementationGuides
