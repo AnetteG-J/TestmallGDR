@@ -39,9 +39,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1"],
     "uses" : {
     },
+    "StructureDefinition-IneraPatient.html" : "Inera Patient",
     "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
-    "StructureDefinition-stockholm-genomic-related-person.html" : "Stockholm Genomic Related Person",
-    "StructureDefinition-IneraPatient.html" : "Inera Patient"
+    "StructureDefinition-stockholm-genomic-related-person.html" : "Stockholm Genomic Related Person"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/c80-doc-typecodes",
@@ -167,8 +167,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.45"],
     "uses" : {
     },
-    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
-    "StructureDefinition-IneraPatient.html" : "Inera Patient"
+    "StructureDefinition-IneraPatient.html" : "Inera Patient",
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -182,8 +182,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.57"],
     "uses" : {
     },
-    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
-    "StructureDefinition-IneraPatient.html" : "Inera Patient"
+    "StructureDefinition-IneraPatient.html" : "Inera Patient",
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -197,10 +197,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-stockholm-genomic-data-file.html" : "Stockholm Genomic Data File",
+    "StructureDefinition-IneraPatient.html" : "Inera Patient",
     "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
     "StructureDefinition-stockholm-genomic-related-person.html" : "Stockholm Genomic Related Person",
-    "StructureDefinition-IneraPatient.html" : "Inera Patient"
+    "StructureDefinition-stockholm-genomic-data-file.html" : "Stockholm Genomic Data File"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -214,8 +214,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.423"],
     "uses" : {
     },
-    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
-    "StructureDefinition-IneraPatient.html" : "Inera Patient"
+    "StructureDefinition-IneraPatient.html" : "Inera Patient",
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/marital-status",
@@ -230,8 +230,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.29"],
     "uses" : {
     },
-    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
-    "StructureDefinition-IneraPatient.html" : "Inera Patient"
+    "StructureDefinition-IneraPatient.html" : "Inera Patient",
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/mimetypes",
@@ -273,8 +273,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1130"],
     "uses" : {
     },
-    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
-    "StructureDefinition-IneraPatient.html" : "Inera Patient"
+    "StructureDefinition-IneraPatient.html" : "Inera Patient",
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype",

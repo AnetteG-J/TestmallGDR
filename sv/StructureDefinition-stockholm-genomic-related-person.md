@@ -69,7 +69,7 @@ Andra representationer av profilen: [CSV](../StructureDefinition-stockholm-genom
   "name" : "StockholmGenomicRelatedPerson",
   "title" : "Stockholm Genomic Related Person",
   "status" : "draft",
-  "date" : "2026-11-06T13:43:12+00:00",
+  "date" : "2026-11-06T14:00:42+00:00",
   "publisher" : "Region Stockholm",
   "contact" : [{
     "name" : "Region Stockholm",
