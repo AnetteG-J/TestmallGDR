@@ -6,26 +6,26 @@ Description: "Represents the laboratory phase of a genomic case and ties togethe
 * ^version = "1.0.0-alpha.1"
 * ^status = #draft
 * ^purpose = "The purpse of this profile is to link and represent the laboratory phase of the genomic study together, which includes the library preparation and Nucleic Acid Sequencing."
-* extension 3..*
-* extension contains
-    StockholmGenomicProcedureExtensionLibraryPreparation named genomic-library-preparation 1..1 and
-    StockholmGenomicProcedureExtensionNucleicAcidSequencing named nucleic-acid-sequencing 1..1 and
-    StockholmGenomicProcedureExtensionFocus named focus 1..1    
-* extension[genomic-library-preparation] MS
-  * ^short = "Reference to the linked library preparation procedure"
-  * ^definition = "Points to the procedure instance that describes library preparation for this laboratory process."
-* extension[nucleic-acid-sequencing] MS
-  * ^short = "Reference to the linked sequencing procedure"
-  * ^definition = "Points to the nucleic acid sequencing procedure associated with this laboratory process."
-* extension[focus] MS
-  * ^short = "Specimen in focus for this process"
-  * ^definition = "Identifies the specimen that this laboratory process applies to."
-* partOf only Reference(StockholmGenomicStudyProcedure or Procedure)
-* status MS
-  * ^short = "Lifecycle status of the laboratory process"
-  * ^definition = "Indicates whether the process is in progress or completed for reporting and follow-up."
-* status from StockholmGenomicProcedureStatusVS (required) 
-  * ^comment = "The following statuses can be used: in-progress, completed."
+//Lägg till dessa * extension 3..*
+//Lägg till dessa * extension contains
+  //Lägg till dessa   StockholmGenomicProcedureExtensionLibraryPreparation named genomic-library-preparation 1..1 and
+  //Lägg till dessa   StockholmGenomicProcedureExtensionNucleicAcidSequencing named nucleic-acid-sequencing 1..1 and
+   //Lägg till dessa  StockholmGenomicProcedureExtensionFocus named focus 1..1    
+//Lägg till dessa * extension[genomic-library-preparation] MS
+ //Lägg till dessa * ^short = "Reference to the linked library preparation procedure"
+ //Lägg till dessa * ^definition = "Points to the procedure instance that describes library preparation for this laboratory process."
+//Lägg till dessa* extension[nucleic-acid-sequencing] MS
+//Lägg till dessa  * ^short = "Reference to the linked sequencing procedure"
+//Lägg till dessa  * ^definition = "Points to the nucleic acid sequencing procedure associated with this laboratory process."
+//Lägg till dessa* extension[focus] MS
+//Lägg till dessa  * ^short = "Specimen in focus for this process"
+//Lägg till dessa  * ^definition = "Identifies the specimen that this laboratory process applies to."
+//Lägg till dessa* partOf only Reference(StockholmGenomicStudyProcedure or Procedure)
+//Lägg till dessa* status MS
+//Lägg till dessa  * ^short = "Lifecycle status of the laboratory process"
+//Lägg till dessa  * ^definition = "Indicates whether the process is in progress or completed for reporting and follow-up."
+//Lägg till dessa* status from StockholmGenomicProcedureStatusVS (required) 
+ //Lägg till dessa * ^comment = "The following statuses can be used: in-progress, completed."
 * instantiatesCanonical ..0 //This attribute is removed in future releases.
 * instantiatesUri ..0 //This attribute is removed in future releases.
 * partOf only Reference(StockholmGenomicStudyProcedure or Procedure)
