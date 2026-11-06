@@ -8,9 +8,9 @@ Description: "Profile for metadata and links to genomic data files included in a
 * implicitRules ..0
 * language ..0
 * contained ..0
-* extension contains StockholmGenomicExtensionSpecimen named specimen 0..*
-* extension[specimen] MS
-* extension[specimen].extension[type].valueReference only Reference(StockholmGenomicSpecimen)
+//Lägg till dessa* extension contains StockholmGenomicExtensionSpecimen named specimen 0..*
+//Lägg till dessa* extension[specimen] MS
+//Lägg till dessa* extension[specimen].extension[type].valueReference only Reference(StockholmGenomicSpecimen)
 * masterIdentifier ..0
 * identifier ..0
 * status = #current (exactly)
