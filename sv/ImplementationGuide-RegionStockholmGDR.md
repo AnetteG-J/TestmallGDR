@@ -14,7 +14,7 @@
   "name" : "RegionStockholmTestmallGDR",
   "title" : "Region Stockholms testmall implementationsguide FHIR",
   "status" : "draft",
-  "date" : "2026-11-06T14:31:26+00:00",
+  "date" : "2026-11-06T15:02:34+00:00",
   "publisher" : "Region Stockholm",
   "contact" : [{
     "name" : "Region Stockholm",
@@ -477,6 +477,22 @@
       },
       "name" : "Stockholm Genomic Related Person",
       "description" : "The related person profile is used to represent the relationship between the proband and another biological relative. The profile is linked from Patient.link on the proband patient record, and the RelatedPerson resource itself points back to the patient and describes the relationship to the other person.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stockholm-genomic-specimen.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/stockholm-genomic-specimen"
+      },
+      "name" : "Stockholm Genomic Specimen",
+      "description" : "Profile to store the data about the specimen used in the genomic study. It is also used to relate both procedures and result files to a certain specimen.",
       "exampleBoolean" : false
     }],
     "page" : {

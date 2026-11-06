@@ -13,5 +13,61 @@
     "uses" : {
     },
     "StructureDefinition-stockholm-genomic-related-person.html" : "Stockholm Genomic Related Person"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/specimen-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SpecimenStatus",
+    "title" : "SpecimenStatus",
+    "description" : "Codes providing the status/availability of a specimen.",
+    "systems" : ["http://hl7.org/fhir/specimen-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.471"],
+    "sources" : ["2.16.840.1.113883.4.642.3.471"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-specimen.html" : "Stockholm Genomic Specimen"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-0371",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "Hl7VSAdditivePreservative",
+    "title" : "hl7VS-additivePreservative",
+    "description" : "Concepts specifying any additive introduced to the specimen before or at the time of collection.  These additives may be introduced in order to preserve, maintain or enhance the particular nature or component of the specimen.  Used in Version 2 messaging in the SPM segment.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0371"],
+    "oids" : ["2.16.840.1.113883.21.245"],
+    "sources" : ["2.16.840.1.113883.21.245"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-specimen.html" : "Stockholm Genomic Specimen"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-0487",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "Hl7VSSpecimenType",
+    "title" : "hl7VS-specimenType",
+    "description" : "Concepts that describe the precise nature of an entity that may be used as the source material for an observation.  This is one of two code systems that are used instead of table 0070 (code system xxxx) which conflated specimen types and specimen collection methods.   Used in Version 2 messaging in the SPM segment.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0487"],
+    "oids" : ["2.16.840.1.113883.21.327"],
+    "sources" : ["2.16.840.1.113883.21.327"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-specimen.html" : "Stockholm Genomic Specimen"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-0493",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "Hl7VSSpecimenCondition",
+    "title" : "hl7VS-specimenCondition",
+    "description" : "Concepts of modes or states of being that describe the nature of a specimen.  Used in Version 2 messaging in the SPM segment.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0493"],
+    "oids" : ["2.16.840.1.113883.21.333"],
+    "sources" : ["2.16.840.1.113883.21.333"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-specimen.html" : "Stockholm Genomic Specimen"
   }]
 }

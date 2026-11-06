@@ -46,4 +46,11 @@
   "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-related-person",
   "version" : "0.1.0",
   "name" : "StockholmGenomicRelatedPerson"
+},
+{
+  "id" : "stockholm-genomic-specimen",
+  "type" : "StructureDefinition",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-specimen",
+  "version" : "0.1.0",
+  "name" : "StockholmGenomicSpecimen"
 }]

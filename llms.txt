@@ -28,6 +28,7 @@
 * [Stockholm Genomic Patient](sv/StructureDefinition-stockholm-genomic-patient.md)
 * [Stockholm Genomic ProcedureLaboratory Process](sv/StructureDefinition-stockholm-genomic-procedure-laboratory-process.md)
 * [Stockholm Genomic Related Person](sv/StructureDefinition-stockholm-genomic-related-person.md)
+* [Stockholm Genomic Specimen](sv/StructureDefinition-stockholm-genomic-specimen.md)
 
 ### Extensions
 
