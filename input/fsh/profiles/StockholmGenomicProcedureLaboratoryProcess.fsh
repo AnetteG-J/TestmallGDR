@@ -28,7 +28,7 @@ Description: "Represents the laboratory phase of a genomic case and ties togethe
  //Lägg till dessa * ^comment = "The following statuses can be used: in-progress, completed."
 * instantiatesCanonical ..0 //This attribute is removed in future releases.
 * instantiatesUri ..0 //This attribute is removed in future releases.
-* partOf only Reference(StockholmGenomicStudyProcedure or Procedure)
+//* partOf only Reference(StockholmGenomicStudyProcedure or Procedure)
 * category.coding MS
   * system 1..
   * system = "http://snomed.info/sct" (exactly)
