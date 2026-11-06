@@ -7,12 +7,14 @@
   "profiles": {
     "Patient": [
       {
-        "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/IneraPatient",
-        "title": "Inera Patient"
-      },
-      {
         "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-patient",
         "title": "Stockholm Genomic Patient"
+      }
+    ],
+    "DocumentReference": [
+      {
+        "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-data-file",
+        "title": "Stockholm Genomic Data File"
       }
     ],
     "RelatedPerson": [
@@ -34,6 +36,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"

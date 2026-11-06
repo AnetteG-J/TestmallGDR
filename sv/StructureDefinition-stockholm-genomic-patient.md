@@ -65,7 +65,7 @@ Andra representationer av profilen: [CSV](../StructureDefinition-stockholm-genom
   "name" : "StockholmGenomicPatient",
   "title" : "Stockholm Genomic Patient",
   "status" : "draft",
-  "date" : "2026-11-05T11:58:10+00:00",
+  "date" : "2026-11-06T13:43:12+00:00",
   "publisher" : "Region Stockholm",
   "contact" : [{
     "name" : "Region Stockholm",
