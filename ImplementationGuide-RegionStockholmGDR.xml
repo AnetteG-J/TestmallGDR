@@ -12,7 +12,7 @@
   <name value="RegionStockholmTestmallGDR"/>
   <title value="Region Stockholms testmall implementationsguide FHIR"/>
   <status value="draft"/>
-  <date value="2026-11-06T14:00:42+00:00"/>
+  <date value="2026-11-06T14:31:26+00:00"/>
   <publisher value="Region Stockholm"/>
   <contact>
     <name value="Region Stockholm"/>
@@ -311,6 +311,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/StockholmGenomicExtensionSpecimen"/>
+      </reference>
+      <name value="Stockholm Genomic Extension Specimen"/>
+      <description value="Extension that references the specimen associated with a genomic document reference."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -318,6 +329,17 @@
       </reference>
       <name value="Stockholm Genomic Patient"/>
       <description value="Minimal Patient profile for genomic studies. Exposes only the key elements required: identifier, gender, birthDate and deceased."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/stockholm-genomic-procedure-laboratory-process"/>
+      </reference>
+      <name value="Stockholm Genomic ProcedureLaboratory Process"/>
+      <description value="Represents the laboratory phase of a genomic case and ties together library preparation and nucleic acid sequencing for a specimen. A single genomic study can include multiple laboratory process instances."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

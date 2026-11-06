@@ -3,7 +3,15 @@
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "SE",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/StockholmGenomicExtensionSpecimen",
+      "title": "Stockholm Genomic Extension Specimen",
+      "types": [
+        "Reference"
+      ]
+    }
+  ],
   "profiles": {
     "Patient": [
       {
@@ -15,6 +23,12 @@
       {
         "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-data-file",
         "title": "Stockholm Genomic Data File"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-procedure-laboratory-process",
+        "title": "Stockholm Genomic ProcedureLaboratory Process"
       }
     ],
     "RelatedPerson": [

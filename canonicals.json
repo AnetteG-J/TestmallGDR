@@ -13,6 +13,13 @@
   "name" : "IneraPatient"
 },
 {
+  "id" : "StockholmGenomicExtensionSpecimen",
+  "type" : "StructureDefinition",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/StockholmGenomicExtensionSpecimen",
+  "version" : "0.1.0",
+  "name" : "StockholmGenomicExtensionSpecimen"
+},
+{
   "id" : "stockholm-genomic-data-file",
   "type" : "StructureDefinition",
   "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-data-file",
@@ -25,6 +32,13 @@
   "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-patient",
   "version" : "0.1.0",
   "name" : "StockholmGenomicPatient"
+},
+{
+  "id" : "stockholm-genomic-procedure-laboratory-process",
+  "type" : "StructureDefinition",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/TestmallGDR/StructureDefinition/stockholm-genomic-procedure-laboratory-process",
+  "version" : "0.1.0",
+  "name" : "StockholmGenomicProcedureLaboratoryProcess"
 },
 {
   "id" : "stockholm-genomic-related-person",

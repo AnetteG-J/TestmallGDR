@@ -39,9 +39,23 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1"],
     "uses" : {
     },
-    "StructureDefinition-IneraPatient.html" : "Inera Patient",
     "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
+    "StructureDefinition-IneraPatient.html" : "Inera Patient",
     "StructureDefinition-stockholm-genomic-related-person.html" : "Stockholm Genomic Related Person"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/body-site",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SNOMEDCTBodyStructures",
+    "title" : "SNOMED CT Body Structures",
+    "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.141"],
+    "sources" : ["2.16.840.1.113883.4.642.3.141"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/c80-doc-typecodes",
@@ -100,6 +114,48 @@
     "StructureDefinition-stockholm-genomic-data-file.html" : "Stockholm Genomic Data File"
   },
   {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "Condition/Problem/DiagnosisCodes",
+    "title" : "Condition/Problem/Diagnosis Codes",
+    "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.161"],
+    "sources" : ["2.16.840.1.113883.4.642.3.161"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/device-action",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedureDeviceActionCodes",
+    "title" : "Procedure Device Action Codes",
+    "description" : "Example codes indicating the change that happened to the device during the procedure.  Note that these are in no way complete and might not even be appropriate for some uses.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.425"],
+    "sources" : ["2.16.840.1.113883.4.642.3.425"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/device-kind",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "FHIRDeviceTypes",
+    "title" : "FHIR Device Types",
+    "description" : "Codes used to identify medical devices. Includes concepts from SNOMED CT (http://www.snomed.org/) where concept is-a 49062001 (Device)  and is provided as a suggestive example.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.208"],
+    "sources" : ["2.16.840.1.113883.4.642.3.208"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
+  },
+  {
     "url" : "http://hl7.org/fhir/ValueSet/document-classcodes",
     "version" : "4.0.1",
     "status" : "active",
@@ -142,6 +198,20 @@
     "StructureDefinition-stockholm-genomic-data-file.html" : "Stockholm Genomic Data File"
   },
   {
+    "url" : "http://hl7.org/fhir/ValueSet/event-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "EventStatus",
+    "title" : "EventStatus",
+    "description" : "Codes identifying the lifecycle stage of an event.",
+    "systems" : ["http://hl7.org/fhir/event-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.109"],
+    "sources" : ["2.16.840.1.113883.4.642.3.109"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
+  },
+  {
     "url" : "http://hl7.org/fhir/ValueSet/formatcodes",
     "version" : "4.0.1",
     "status" : "active",
@@ -167,8 +237,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.45"],
     "uses" : {
     },
-    "StructureDefinition-IneraPatient.html" : "Inera Patient",
-    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient"
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process",
+    "StructureDefinition-IneraPatient.html" : "Inera Patient"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -182,8 +253,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.57"],
     "uses" : {
     },
-    "StructureDefinition-IneraPatient.html" : "Inera Patient",
-    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient"
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process",
+    "StructureDefinition-IneraPatient.html" : "Inera Patient"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -197,10 +269,11 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-IneraPatient.html" : "Inera Patient",
+    "StructureDefinition-stockholm-genomic-data-file.html" : "Stockholm Genomic Data File",
     "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
-    "StructureDefinition-stockholm-genomic-related-person.html" : "Stockholm Genomic Related Person",
-    "StructureDefinition-stockholm-genomic-data-file.html" : "Stockholm Genomic Data File"
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process",
+    "StructureDefinition-IneraPatient.html" : "Inera Patient",
+    "StructureDefinition-stockholm-genomic-related-person.html" : "Stockholm Genomic Related Person"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -214,8 +287,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.423"],
     "uses" : {
     },
-    "StructureDefinition-IneraPatient.html" : "Inera Patient",
-    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient"
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
+    "StructureDefinition-IneraPatient.html" : "Inera Patient"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/marital-status",
@@ -230,8 +303,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.29"],
     "uses" : {
     },
-    "StructureDefinition-IneraPatient.html" : "Inera Patient",
-    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient"
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
+    "StructureDefinition-IneraPatient.html" : "Inera Patient"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/mimetypes",
@@ -273,8 +346,106 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1130"],
     "uses" : {
     },
-    "StructureDefinition-IneraPatient.html" : "Inera Patient",
-    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient"
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
+    "StructureDefinition-IneraPatient.html" : "Inera Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/performer-role",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedurePerformerRoleCodes",
+    "title" : "Procedure Performer Role Codes",
+    "description" : "This example value set defines the set of codes that can be used to indicate a role of a procedure performer.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.433"],
+    "sources" : ["2.16.840.1.113883.4.642.3.433"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedureCategoryCodes(SNOMEDCT)",
+    "title" : "Procedure Category Codes (SNOMED CT)",
+    "description" : "Procedure Category code: A selection of relevant SNOMED CT codes.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.430"],
+    "sources" : ["2.16.840.1.113883.4.642.3.430"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedureCodes(SNOMEDCT)",
+    "title" : "Procedure Codes (SNOMED CT)",
+    "description" : "Procedure Code: All SNOMED CT procedure codes.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.427"],
+    "sources" : ["2.16.840.1.113883.4.642.3.427"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/procedure-followup",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedureFollowUpCodes(SNOMEDCT)",
+    "title" : "Procedure Follow up Codes (SNOMED CT)",
+    "description" : "Procedure follow up codes: A selection of SNOMED CT codes relevant to procedure follow up.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.429"],
+    "sources" : ["2.16.840.1.113883.4.642.3.429"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ProcedureNotPerformedReason(SNOMED-CT)",
+    "title" : "Procedure Not Performed Reason (SNOMED-CT)",
+    "description" : "Situation codes describing the reason that a procedure, which might otherwise be expected, was not performed, or a procedure that was started and was not completed. Consists of SNOMED CT codes, children of procedure contraindicated (183932001), procedure discontinued (416406003), procedure not done (416237000), procedure not indicated (428119001), procedure not offered (416064006), procedure not wanted (416432009), procedure refused (183944003), and procedure stopped (394908001).",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.431"],
+    "sources" : ["2.16.840.1.113883.4.642.3.431"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedureOutcomeCodes(SNOMEDCT)",
+    "title" : "Procedure Outcome Codes (SNOMED CT)",
+    "description" : "Procedure Outcome code: A selection of relevant SNOMED CT codes.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.428"],
+    "sources" : ["2.16.840.1.113883.4.642.3.428"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedureReasonCodes",
+    "title" : "Procedure Reason Codes",
+    "description" : "This example value set defines the set of codes that can be used to indicate a reason for a procedure.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.432"],
+    "sources" : ["2.16.840.1.113883.4.642.3.432"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype",
@@ -290,6 +461,20 @@
     "uses" : {
     },
     "StructureDefinition-stockholm-genomic-related-person.html" : "Stockholm Genomic Related Person"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/resource-types",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ResourceType",
+    "title" : "ResourceType",
+    "description" : "One of the resource types defined as part of this version of FHIR.",
+    "systems" : ["http://hl7.org/fhir/resource-types"],
+    "oids" : ["2.16.840.1.113883.4.642.3.27"],
+    "sources" : ["2.16.840.1.113883.4.642.3.27"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html" : "Stockholm Genomic ProcedureLaboratory Process"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/security-labels",

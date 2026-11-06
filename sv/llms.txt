@@ -26,7 +26,12 @@
 * [Inera Patient](StructureDefinition-IneraPatient.md)
 * [Stockholm Genomic Data File](StructureDefinition-stockholm-genomic-data-file.md)
 * [Stockholm Genomic Patient](StructureDefinition-stockholm-genomic-patient.md)
+* [Stockholm Genomic ProcedureLaboratory Process](StructureDefinition-stockholm-genomic-procedure-laboratory-process.md)
 * [Stockholm Genomic Related Person](StructureDefinition-stockholm-genomic-related-person.md)
+
+### Extensions
+
+* [Stockholm Genomic Extension Specimen](StructureDefinition-StockholmGenomicExtensionSpecimen.md)
 
 ### ImplementationGuides
 

@@ -14,7 +14,7 @@
   "name" : "RegionStockholmTestmallGDR",
   "title" : "Region Stockholms testmall implementationsguide FHIR",
   "status" : "draft",
-  "date" : "2026-11-06T14:00:42+00:00",
+  "date" : "2026-11-06T14:31:26+00:00",
   "publisher" : "Region Stockholm",
   "contact" : [{
     "name" : "Region Stockholm",
@@ -418,6 +418,22 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-StockholmGenomicExtensionSpecimen.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/StockholmGenomicExtensionSpecimen"
+      },
+      "name" : "Stockholm Genomic Extension Specimen",
+      "description" : "Extension that references the specimen associated with a genomic document reference.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       },
       {
@@ -429,6 +445,22 @@
       },
       "name" : "Stockholm Genomic Patient",
       "description" : "Minimal Patient profile for genomic studies. Exposes only the key elements required: identifier, gender, birthDate and deceased.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stockholm-genomic-procedure-laboratory-process.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/stockholm-genomic-procedure-laboratory-process"
+      },
+      "name" : "Stockholm Genomic ProcedureLaboratory Process",
+      "description" : "Represents the laboratory phase of a genomic case and ties together library preparation and nucleic acid sequencing for a specimen. A single genomic study can include multiple laboratory process instances.",
       "exampleBoolean" : false
     },
     {
