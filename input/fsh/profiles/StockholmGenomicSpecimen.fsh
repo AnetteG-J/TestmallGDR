@@ -6,10 +6,10 @@ Description: "Profile to store the data about the specimen used in the genomic s
 * ^version = "1.0.0-alpha.1"
 * ^status = #draft
 * ^purpose = "The purpose of this profile is to represent the specimen used in the genomic study. It is used to relate patients, procedures and result files to a certain specimen."
-* extension contains StockholmGenomicSpecimenExtensionSource named specimen-source 0..*
-* extension[specimen-source] MS
-  * ^short = "Clinical source of the specimen"
-  * ^definition = "Optional The specimen source - What type of specimen the sample is taken from. E.g tissue, blood etc"
+//Lägg till dessa * extension contains StockholmGenomicSpecimenExtensionSource named specimen-source 0..*
+//Lägg till dessa * extension[specimen-source] MS
+ //Lägg till dessa * ^short = "Clinical source of the specimen"
+//Lägg till dessa * ^definition = "Optional The specimen source - What type of specimen the sample is taken from. E.g tissue, blood etc"
 * identifier 1..* MS
   * ^short = "Requester and laboratory specimen identifiers"
   * ^definition = "The identifier of the specimen. This is a required element and should always be populated when using this profile."
