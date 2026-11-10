@@ -16,6 +16,10 @@ publisher:
 
 jurisdiction: urn:iso:std:iso:3166#SE "Sweden"
 
+dependencies:
+  hl7.fhir.us.core: 9.0.0
+  hl7.fhir.uv.genomics-reporting: 3.0.0
+
 parameters:
   show-inherited-invariants: false
   usage-stats-opt-out: true
